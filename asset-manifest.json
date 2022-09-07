@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/asmik/static/css/main.115ece98.css",
+    "main.js": "/asmik/static/js/main.a3d2f598.js",
+    "static/js/787.d3befce1.chunk.js": "/asmik/static/js/787.d3befce1.chunk.js",
+    "static/media/Lato-MediumItalic.ttf": "/asmik/static/media/Lato-MediumItalic.29e2bb5a0f5cd3633460.ttf",
+    "static/media/Lato-SemiBold.ttf": "/asmik/static/media/Lato-SemiBold.505e1361b69ab525b4e7.ttf",
+    "static/media/Lato-Light.ttf": "/asmik/static/media/Lato-Light.db4ac5122b70c74fd850.ttf",
+    "static/media/Lato-Medium.ttf": "/asmik/static/media/Lato-Medium.c4d1c52e785297a7d666.ttf",
+    "static/media/head.jpg": "/asmik/static/media/head.3bf55513a957ef6f7f8d.jpg",
+    "static/media/asmik2.jpg": "/asmik/static/media/asmik2.b5ed02fe779a3682d832.jpg",
+    "static/media/asmik.jpg": "/asmik/static/media/asmik.8b3f391a19fa20a7cf42.jpg",
+    "index.html": "/asmik/index.html",
+    "main.115ece98.css.map": "/asmik/static/css/main.115ece98.css.map",
+    "main.a3d2f598.js.map": "/asmik/static/js/main.a3d2f598.js.map",
+    "787.d3befce1.chunk.js.map": "/asmik/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.115ece98.css",
+    "static/js/main.a3d2f598.js"
+  ]
+}
