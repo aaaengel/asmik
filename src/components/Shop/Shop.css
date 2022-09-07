@@ -1,0 +1,71 @@
+.shop{
+    display: flex;
+    background-color: #e5e3e0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.shop__text__cont{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.shop__text__title{
+    font-family: "LatoMed";
+    margin-bottom: 30px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.shop__text{
+    font-family: "Lato";
+    font-size: 23px;
+    max-width: 800px;
+}
+.shop__text__cont__line{
+    border: 1px solid black;
+}
+
+.shop__cont__button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.shop__cont__button__button{
+    padding-left:50px;
+    padding-right:50px;
+    margin-left:200px;
+    color: #8a8c87;
+    background: none;
+    outline: none;
+    border: 1px solid #8a8c87;
+    font-family: "Lato";
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+.shop__cont__button__text{
+    color: #8a8c87;
+    font-size: 20px;
+    font-family: "Lato";
+}
+
+.shop__cont__button__button:hover{
+    transition: all 0.5s;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1114px){
+    .shop__cont__button{
+        flex-direction: column;
+    }
+    .shop__cont__button__button{
+        margin: 0;
+    }
+    .shop{
+        padding:50px
+    }
+}

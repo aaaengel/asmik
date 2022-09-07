@@ -1,0 +1,57 @@
+.about{
+    display: flex;
+    background-color: #b2ada1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.about__text{
+    color: white;
+    font-family: "Lato";
+    font-size: 23px;
+    max-width: 700px;
+}
+.about__text__cont__line{
+    border: 1px solid #fcfcee;
+}
+.about__text__cont{
+    display: flex;
+    flex-direction: column;
+}
+.about__text__title{
+    filter: drop-shadow(0 0 10px #eae6ca);
+    margin:0;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "LatoMed";
+    font-size: 40px;
+    max-width: 700px;
+}
+
+.about__image{
+    max-width: 300px;
+    margin-right:70px;
+    border-radius: 50px;
+    filter: drop-shadow(0 0 60px #eae6ca);
+}
+
+@media screen and (max-width: 1114px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+        padding:50px;
+    }
+    .about__text{
+        text-align: center;
+        align-items: center;
+    }
+    .about__text__cont{
+        align-self: center;
+        margin: 0px;
+    }
+    .about__image{
+        max-width:250px;
+        margin:0;
+    }
+}
